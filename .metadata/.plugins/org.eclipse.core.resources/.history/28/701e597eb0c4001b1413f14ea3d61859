@@ -4,7 +4,6 @@ public class SwimCoach implements Coach {
 
 	private FortuneService fortuneService;
 
-	// constructor injection. Here we inject the dependency.
 	public SwimCoach(FortuneService theFortuneService) {
 		fortuneService = theFortuneService;
 	}
