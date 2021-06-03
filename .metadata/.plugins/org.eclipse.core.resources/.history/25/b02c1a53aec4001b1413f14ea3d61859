@@ -6,7 +6,7 @@ public class AnnotationBeanScopeDemoApp {
 
 	public static void main(String[] args) {
 
-		// load spring configuration file
+		// load spring config file
 		ClassPathXmlApplicationContext context = new 
 				ClassPathXmlApplicationContext("applicationContext.xml");	
 				
